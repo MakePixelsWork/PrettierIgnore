@@ -17,4 +17,3 @@ Thats why the file is 300 lines and more.
 
 ## Help out!
 If you know formats that are missing, feel free to add them, or contact me, to add them to this repo.
-
