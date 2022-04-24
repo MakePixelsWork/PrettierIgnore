@@ -305,6 +305,12 @@ template/**
 template/public/**
 template/src/**
 
+# Ignore folders (as given in their examples)
+**/.git
+**/.svn
+**/.hg
+**/node_modules
+
 # Ignore all
 # Put as last rule, because Prettier may ignore this (according to reviews online)
 /*
