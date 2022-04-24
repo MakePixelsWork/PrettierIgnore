@@ -4,6 +4,9 @@
 # good code ethics yourself. Learn to fucking code! Do NOT remove this ignore file,
 # or you will be shot, fired, kicked, deleted and terminated!
 
+# Additional info
+# > https://prettier.io/docs/en/ignore.html
+
 # Ignore common extensions
 *.asp
 *.aspx
