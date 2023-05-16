@@ -7,6 +7,12 @@
 # Additional info
 # > https://prettier.io/docs/en/ignore.html
 
+# Ignore dotfiles
+.DS_Store
+.editorconfig
+.gitignore
+.npmignore
+
 # Ignore common extensions
 *.asp
 *.aspx
@@ -49,6 +55,7 @@
 *.xhtm
 *.xhtml
 *.xml
+*.yml
 
 # Ignore other extensions
 *.a4p
@@ -156,6 +163,8 @@
 *.kit
 *.lasso
 *.lbc
+*.lock
+*.log
 *.maff
 *.map
 *.mapx
@@ -211,12 +220,14 @@
 *.saveddeck
 *.sdb
 *.seam
+*.sh
 *.sht
 *.shtm
 *.site
 *.sitemap
 *.sites
 *.sites2
+*.snap
 *.sparkle
 *.spc
 *.srf
@@ -231,6 +242,7 @@
 *.svc
 *.svr
 *.swz
+*.toml
 *.tpl
 *.tvpi
 *.tvvi
@@ -279,6 +291,7 @@
 *.zvz
 
 # Ignore images (when inadvertently opened by user)
+*.bmp
 *.gif
 *.jpeg
 *.jpg
@@ -286,6 +299,7 @@
 *.svg
 *.tif
 *.tiff
+*.webp
 
 # Ignore fonts (when inadvertently opened by user)
 *.eot
@@ -299,7 +313,11 @@
 .history/**
 .sass-cache/**
 .vscode/**
+coverage/**
+dist/**
 download/**
+es/**
+lib/**
 node_modules/**
 template/**
 template/public/**
