@@ -8,8 +8,8 @@
 # > https://prettier.io/docs/en/ignore.html
 
 # Their docs advice you to use `**/*.html` to match all recursive files in the entire
-# repo, but in the pattern without a slash (like *.html) already matches all files at
-# any depth of the repo, not just the root.
+# repo, but the pattern without a slash (like *.html) already matches all files at any
+# depth of the repo, not just the root.
 
 # The explicit extension list in this file is a reasonable belt-and-suspenders approach
 # given real historical unreliability. Prettier's ignore handling has been buggy and
