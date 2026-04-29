@@ -124,7 +124,7 @@
 # Graphics
 *.svg
 
-# Ignore folders (** = infinite depth)
+# Folders (** = infinite depth)
 .history/**
 .sass-cache/**
 .vscode/**
@@ -137,6 +137,15 @@ node_modules/**
 template/**
 template/public/**
 template/src/**
+
+# Paranoia
+.editorconfig
+.gitignore
+.npmignore
+.git/**
+**/.git
+**/.svn
+**/.hg
 
 # Ignore all
 # Put as last rule, because Prettier may ignore this (according to reviews online)
