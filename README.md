@@ -13,8 +13,5 @@ The file tells Prettier to ignore all know web formats, a lot of common files, f
 ## Why is this file soo big?
 I read online (source lost) that Prettier sometimes ignores its own `/*` within the .prettierignore file. To force them to really ignore specific file extensions, I made a list of all known web formats, across several developer systems. This also includes server sided formats.
 
-## Help out!
-If you know formats that are missing, feel free to add them, or contact me, to add them to this repo.
-
 **Victor van der Put**<br>
 [@MakePixelsWork](https://github.com/MakePixelsWork)
